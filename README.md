@@ -5,6 +5,7 @@
 ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
+![Kaggle](https://img.shields.io/badge/Kaggle-Datasets-20BEFF?logo=kaggle&logoColor=white)
 
 > Fabrica de analisis de datos sobre plataformas de streaming con foco en **valor economico real**: revenue, retencion, LTV y decision-making basado en datos.
 
@@ -91,6 +92,28 @@ jupyter notebook notebooks/
 Tambien podes ejecutar cada notebook en **Google Colab** haciendo clic en el badge de cada uno.
 
 ---
+
+## 📊 Datasets
+
+Este proyecto utiliza **3 datasets públicos de Kaggle**. 
+
+📝 **Ver guía completa**: [DATASETS.md](DATASETS.md)
+
+**Quick Start**:
+```bash
+# Opción 1: Descarga manual desde Kaggle (recomendado)
+# - Netflix: https://www.kaggle.com/datasets/shivamb/netflix-shows
+# - Spotify: https://www.kaggle.com/datasets/nelgiriyewithana/top-spotify-songs-2023
+# - Twitch: https://www.kaggle.com/datasets/aayushmishra1512/twitchdata
+
+# Opción 2: Con Kaggle API
+pip install kaggle
+kaggle datasets download -d shivamb/netflix-shows
+kaggle datasets download -d nelgiriyewithana/top-spotify-songs-2023
+kaggle datasets download -d aayushmishra1512/twitchdata
+```
+
+Colocá los archivos CSV descargados en `data/raw/`.
 
 ## Sobre el Autor
 
