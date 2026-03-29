@@ -17,13 +17,18 @@ Demostrar capacidad analitica end-to-end: desde la exploracion del dataset hasta
 
 ---
 
-## Analisis Incluidos
+## 👨‍💻 Enfoque del Proyecto
 
-| # | Plataforma | Dataset | Foco de Negocio | Notebook |
-|---|-----------|---------|-----------------|----------|
-| 01 | Netflix | Netflix Movies & TV Shows (Kaggle) | Estrategia de contenido y ROI por genero | [En desarrollo](notebooks/01_netflix_content_analysis.ipynb) |
-| 02 | Spotify | Spotify Top Tracks 2023 (Kaggle) | Revenue estimado por streams y artistas | [En desarrollo](notebooks/02_spotify_revenue_analysis.ipynb) |
-| 03 | Twitch | Twitch Top Streamers (Kaggle) | Monetizacion y valor por viewership | [En desarrollo](notebooks/03_twitch_monetization_analysis.ipynb) |
+Este repositorio documenta un **framework de análisis de datos** para plataformas de streaming.
+Incluye:
+- Metodología de análisis orientado a valor económico
+- Stack técnico recomendado (Pandas, Matplotlib, Seaborn)
+- Estructura de proyecto profesional con carpetas organizadas
+- Documentación de datasets públicos relevantes
+
+**Objetivo**: Demostrar capacidad analítica end-to-end desde exploración de datos hasta insights accionables con impacto de negocio medible.
+
+
 
 ---
 
