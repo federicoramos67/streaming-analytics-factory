@@ -21,9 +21,9 @@ Demostrar capacidad analitica end-to-end: desde la exploracion del dataset hasta
 
 | # | Plataforma | Dataset | Foco de Negocio | Notebook |
 |---|-----------|---------|-----------------|----------|
-| 01 | Netflix | Netflix Movies & TV Shows (Kaggle) | Estrategia de contenido y ROI por genero | [Ver notebook](notebooks/01_netflix_content_analysis.ipynb) |
-| 02 | Spotify | Spotify Top Tracks 2023 (Kaggle) | Revenue estimado por streams y artistas | [Ver notebook](notebooks/02_spotify_revenue_analysis.ipynb) |
-| 03 | Twitch | Twitch Top Streamers (Kaggle) | Monetizacion y valor por viewership | [Ver notebook](notebooks/03_twitch_monetization_analysis.ipynb) |
+| 01 | Netflix | Netflix Movies & TV Shows (Kaggle) | Estrategia de contenido y ROI por genero | [En desarrollo](notebooks/01_netflix_content_analysis.ipynb) |
+| 02 | Spotify | Spotify Top Tracks 2023 (Kaggle) | Revenue estimado por streams y artistas | [En desarrollo](notebooks/02_spotify_revenue_analysis.ipynb) |
+| 03 | Twitch | Twitch Top Streamers (Kaggle) | Monetizacion y valor por viewership | [En desarrollo](notebooks/03_twitch_monetization_analysis.ipynb) |
 
 ---
 
