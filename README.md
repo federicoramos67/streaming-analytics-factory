@@ -3,7 +3,7 @@
 ![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-2.0-150458?logo=pandas&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter&logoColor=white)
-![Status](https://img.shields.io/badge/Status-Active-brightgreen)
+![Status](https://img.shields.io/badge/Status-En%20desarrollo-yellow)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 ![Kaggle](https://img.shields.io/badge/Kaggle-Datasets-20BEFF?logo=kaggle&logoColor=white)
 
@@ -32,22 +32,25 @@ Este repositorio documenta un **framework de análisis de datos** para plataform
 
 ```
 streaming-analytics-factory/
+├── data/
+│   ├── raw/          # Datasets originales de Kaggle (no versionados)
+│   └── processed/    # Datos limpios post-ETL
 ├── notebooks/
 │   ├── 01_netflix_content_analysis.ipynb
 │   ├── 02_spotify_revenue_analysis.ipynb
 │   └── 03_twitch_monetization_analysis.ipynb
-├── data/
-│   ├── raw/          # Datasets originales de Kaggle
-│   └── processed/    # Datos limpios post-ETL
 ├── assets/
 │   └── charts/       # Visualizaciones exportadas
+├── DATASETS.md
 ├── requirements.txt
 └── README.md
 ```
 
 ---
 
-## 💡 Insights Clave por Análisis
+## 💡 Preguntas que aborda cada análisis
+
+> Los notebooks se publican sin ejecutar: para ver resultados hay que descargar los datasets (ver [DATASETS.md](DATASETS.md)) y correrlos localmente.
 
 ### 🎥 Netflix
 - Identificación de géneros con mayor densidad de contenido vs rating
@@ -92,7 +95,7 @@ pip install -r requirements.txt
 jupyter notebook notebooks/
 ```
 
-También podés ejecutar cada notebook en **Google Colab** haciendo clic en el badge de cada uno.
+Antes de ejecutar, descargá los CSV de Kaggle en `data/raw/` (ver [DATASETS.md](DATASETS.md)).
 
 ---
 
